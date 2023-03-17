@@ -1,0 +1,41 @@
+body{
+    background-color: hotpink;
+}
+h1{
+    color: rgb(255, 0, 128);
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    background-color: lightpink;
+}
+
+.logo{
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav{
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(249, 140, 205);
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: mediumvioletred;
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+}
