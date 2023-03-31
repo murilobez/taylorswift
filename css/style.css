@@ -1,14 +1,14 @@
 body{
-    background-color: hotpink;
+    background-color: #C9E8FD;
 }
 h1{
-    color: rgb(255, 0, 128);
+    color: #4E4466;
     text-align: center;
 }
 
 header{
     width: 100%;
-    background-color: lightpink;
+    background-color: #526D85;
 }
 
 .logo{
@@ -28,13 +28,13 @@ nav{
 }
 
 .container{
-    background-color: rgb(249, 140, 205);
+    background-color: #B8ACD1;
     width: 80%;
     margin: auto;
 }
 
 footer{
-    background-color: mediumvioletred;
+    background-color: #E2D5F1;
     color: black;
     font-size: 1.3em;
     text-align: center;
