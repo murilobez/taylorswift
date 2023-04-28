@@ -4,6 +4,9 @@ body{
 h1{
     color: #4E4466;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+
+
 }
 
 header{
@@ -31,6 +34,10 @@ nav{
     background-color: #B8ACD1;
     width: 80%;
     margin: auto;
+    font-family: 'Karla', sans-serif;
+
+    
+
 }
 
 footer{
@@ -41,4 +48,22 @@ footer{
 }
 .biog {
     width: 100%;
+}
+
+p{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1.2em;
+
+}
+h2 {
+    color: #8272a7;
+    margin-left: 20%;
+    font-family: 'Bebas Neue', cursive;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+
 }
