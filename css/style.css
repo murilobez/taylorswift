@@ -47,6 +47,7 @@ footer{
     color: black;
     font-size: 1.3em;
     text-align: center;
+    font-family: 'Karla', sans-serif;
 }
 .biog {
     width: 100%;
@@ -88,4 +89,8 @@ h3{
 }
 .img5{
     margin-left: 10%;
+}
+
+.headerfont{
+    font-family: 'Karla', sans-serif;
 }
