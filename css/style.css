@@ -99,3 +99,22 @@ h3{
 .headerfont{
     font-family: 'Karla', sans-serif;
 }
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;    
+}
+
+.col-6 {
+    width: 50%;
+}
+@media (max-width: 800px) {
+    .linha {
+      flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+  }
+
