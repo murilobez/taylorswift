@@ -99,7 +99,7 @@ h3{
 .headerfont{
     font-family: 'Karla', sans-serif;
 }
-.linha{
+.row{
     display: flex;
     flex-flow: row wrap;
     text-align: center;    
@@ -109,7 +109,7 @@ h3{
     width: 50%;
 }
 @media (max-width: 800px) {
-    .linha {
+    .row {
       flex-direction: column;
     }
 
@@ -117,4 +117,3 @@ h3{
         width: 100%;
     }
   }
-
