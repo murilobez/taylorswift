@@ -140,3 +140,8 @@ h3{
   .col-4 {
     width: 50%;
   }
+  a:hover {
+    text-decoration: none;
+    background-color: #A64724;    
+    color: #D9C8A9;
+    }
