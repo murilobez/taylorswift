@@ -114,6 +114,7 @@ h3{
 
 .headerfont{
     font-family: 'Karla', sans-serif;
+
 }
 .row{
     display: flex;
@@ -140,8 +141,30 @@ h3{
   .col-4 {
     width: 50%;
   }
-  a:hover {
-    text-decoration: none;
-    background-color: #A64724;    
-    color: #D9C8A9;
+    .itens_menu a:hover {
+        color:  #D9C8A9;
+        padding: 0.1%;    
+        background-color: #A64724; 
+        text-decoration: none;
+        border-radius: 10%;
     }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td {
+        border: 1px solid #D9C8A9;
+        text-align: left;
+        padding: 8px;
+      }
+      th {
+        border: 1px solid #D9C8A9;
+        text-align: center;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #D9C8A9;
+      }
