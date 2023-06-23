@@ -69,7 +69,7 @@ p{
 
 }
 h2 {
-    color: #BC9A77;
+    color: #A64724;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     text-shadow: 1px 1px 1px #707070;
@@ -80,6 +80,7 @@ h2 {
 h3{
     text-align: center;
     font-family: 'Karla', sans-serif;
+   
 
 }
 .img1{
@@ -158,13 +159,23 @@ h3{
         border: 1px solid #D9C8A9;
         text-align: left;
         padding: 8px;
+        font-family: 'Karla', sans-serif;
+        font-size: 1.5em;
+        
       }
       th {
         border: 1px solid #D9C8A9;
         text-align: center;
         padding: 8px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3.0em;
+        text-shadow: 2px 2px 1px 	#838383;
+        color: #A64724;
       }
       
       tr:nth-child(even) {
         background-color: #D9C8A9;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.5em;
+       
       }
