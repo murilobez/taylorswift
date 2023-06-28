@@ -179,6 +179,11 @@ h3{
         font-size: 1.5em;
        
       }
-    .listae {
-        list-style-image: url('..img/microphone.png');
+      .listameio li{
+        line-height: 1.5;
+        font-size: 1.2em;
+        font-family: 'Montserrat', sans-serif;
+        list-style-image: url('../img/microphone.png');
+        margin-left: 50%;
+        
     }
