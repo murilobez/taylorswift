@@ -66,6 +66,8 @@ p{
     padding-bottom: 0.5%;
     font-size: 1.2em;
     line-height: 1.5;
+    text-align: justify;
+   
 
 }
 h2 {
@@ -186,4 +188,8 @@ h3{
         list-style-image: url('../img/microphone.png');
         margin-left: 50%;
         
+    }
+    .imgfloat {
+        float: right;
+        padding-right: 2.0%;
     }
