@@ -125,7 +125,7 @@ h3{
 }
 
 .col-6 {
-    width: 50%;
+    width: 33.3%;
 }
 @media (max-width: 800px) {
     .row {
@@ -143,6 +143,7 @@ h3{
   .col-4 {
     width: 50%;
   }
+
     .itens_menu a:hover {
         color:  #D9C8A9;
         padding: 0.1%;    
@@ -150,10 +151,11 @@ h3{
         text-decoration: none;
         border-radius: 10%;
     }
+    
     table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
-        width: 80%;
+        width: 100%;
       }
       
       td {
