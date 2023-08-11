@@ -89,29 +89,33 @@ h3{
     border-radius: 12px;
     padding: 5px;
     box-shadow: #707070;
+    width: 40%;
 }
 
 .img2{
     border: 2px solid black;
     border-radius: 12px;
     padding: 5px;
-
+    width: 40%;
 }
 .img3{
     border: 2px solid black;
     border-radius: 12px;
     padding: 5px;
+    width: 40%;
 }
 
 .img4{
     border: 2px solid black;
     border-radius: 12px;
     padding: 5px;
+    width: 40%;
 }
 .img5{
     border: 2px solid black;
     border-radius: 12px;
     padding: 5px;
+    width: 40%;
 }
 
 .headerfont{
@@ -192,4 +196,7 @@ h3{
         float: right;
         padding-right: 2.0%;
         padding-left: 1.5%;
+    }
+    .logo-topo{
+        width: 20%;
     }
