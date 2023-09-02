@@ -108,6 +108,7 @@ h3{
 .col-6 {
     width: 25%;
 }
+
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
@@ -118,13 +119,29 @@ h3{
     .col-4 {
         width: 100%;
     }
+
+    .col-3{
+        width: 100%;
+    }
+
     .banner{
-        padding-top: 60%;
+        padding-top: 50%;
+        width: 190%;
     }
     .logo{
         position: relative;
         text-align: center;
     }
+
+    .container{
+        display: column;
+    }
+
+    .imgfloat{
+        text-align: center;
+        width: 40%;
+    }
+
   }
 
   @media screen and (min-width: 601px) {
@@ -154,6 +171,11 @@ h3{
         padding-top: 1%;
         padding-bottom: 1%;
         text-align: left;
+      }
+
+      .card_spotify{
+        width: 100%;
+        
       }
     
   }
@@ -221,3 +243,8 @@ h3{
         width: 20%;
     }
 
+.card_spotify{
+    border-radius:12px; 
+    box-align: center;
+    margin-right: 10%;
+}
