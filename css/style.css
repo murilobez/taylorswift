@@ -125,8 +125,8 @@ h3{
     }
 
     .banner{
-        padding-top: 50%;
-        width: 190%;
+        padding-top: 43%;
+        width: 100%;
     }
     .logo{
         position: relative;
@@ -141,7 +141,6 @@ h3{
         text-align: center;
         width: 40%;
     }
-
   }
 
   @media screen and (min-width: 601px) {
@@ -245,6 +244,6 @@ h3{
 
 .card_spotify{
     border-radius:12px; 
-    box-align: center;
-    margin-right: 10%;
+    margin-left: 1%;
+    margin-bottom: -8px;
 }
