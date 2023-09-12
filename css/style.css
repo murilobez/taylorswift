@@ -128,7 +128,7 @@ h3 {
         width: 100%;
     }
 
-    .col-4 {
+    .col-2 {
         width: 100%;
     }
 
@@ -154,6 +154,18 @@ h3 {
         text-align: center;
         width: 40%;
     }
+
+    .descer{
+        margin-top: 50%;
+      }
+
+      .col-3, .col-4, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+       
+      }  
+
+     
 }
 
 @media screen and (min-width: 601px) {
@@ -191,9 +203,17 @@ h3 {
 
     }
 
+    .descer{
+        margin-top: 10%;
+      }
+
+.bannercontato{
+    padding-top: 15%;
 }
 
-.col-4 {
+}
+
+.col-2 {
     width: 50%;
 }
 
@@ -264,4 +284,78 @@ tr:nth-child(even) {
     border-radius: 12px;
     margin-left: 1%;
     margin-bottom: -8px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Karla'
+  }
+
+  input[type=text], select, textarea, input[type=tel], input[type=email] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: vertical;
+    font-family: 'Karla'
+  }
+ 
+  input[type=submit] {
+    background-color: #B98E62;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    font-weight: bolder;
+   
+  }
+  
+  .buttonform{
+    margin-top: 3%;
+  }
+  
+  .borderform{
+    background-color: rgba(128, 128, 128, 0.3) ;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+ 
+  }
+
+  .col-3
+  {
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+  }
+
+  .col-4{
+    width: 25%;
+  float: left;
+  margin-top: 6px;
+  }
+
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.bannercontato{
+    width: 100%;
+}
+
+.img_ctt{
+    width: 100%;
+    
 }
